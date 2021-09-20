@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "964640366394",
+    "firebase_url": "https://kitacek-b6b06-default-rtdb.firebaseio.com",
+    "project_id": "kitacek-b6b06",
+    "storage_bucket": "kitacek-b6b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964640366394:android:35bfafd6236775335aba03",
+        "android_client_info": {
+          "package_name": "com.id.kitacek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964640366394-r3ah9q6j867qnor9v0c7cfj7u51hdgo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIh9zBgAAq0z07A5ldCV2l-3wZBMJZfqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964640366394-r3ah9q6j867qnor9v0c7cfj7u51hdgo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964640366394:android:c51db32df31ac4ea5aba03",
+        "android_client_info": {
+          "package_name": "com.kitacek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964640366394-g1n1rshl8dol126apffiv3u28k96drob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kitacek",
+            "certificate_hash": "df4ecf1198c34f609096bee0cfad3801c1cb5ee2"
+          }
+        },
+        {
+          "client_id": "964640366394-r3ah9q6j867qnor9v0c7cfj7u51hdgo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIh9zBgAAq0z07A5ldCV2l-3wZBMJZfqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964640366394-r3ah9q6j867qnor9v0c7cfj7u51hdgo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

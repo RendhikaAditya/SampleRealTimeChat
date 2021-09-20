@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roomChat.RoomChatActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-30dp"
+        android:id="@+id/head"
+        android:translationZ="3dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_back"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/back"
+                android:src="@drawable/account_img"
+                android:background="@drawable/shape_main"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/imgProfilChat"
+                android:layout_marginTop="15dp"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgProfilChat"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Muhammad khaled"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/namaChat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:id="@+id/statusChat"
+                    android:textColor="@color/teal_700"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ProgressBar
+        android:id="@+id/progressMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtText"
+        android:layout_below="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:minHeight="45dp"
+        android:background="@drawable/shape_main"
+        android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/imgSenderMessage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/ic_arrow_forward"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:tint="@color/teal_200" />
+</RelativeLayout>
